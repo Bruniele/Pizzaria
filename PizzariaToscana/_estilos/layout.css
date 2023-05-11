@@ -9,3 +9,81 @@ VERMELHO ESCURO: #D90404
 CINZA ESCURO: #404040
 CINZA BEM CLARO: #F7F7F7
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 95%;
+  height: 200px;
+  background-color: #404040;
+
+  margin: 10px auto;
+}
+
+nav div#logo {
+  float: left;
+  background-image: url(../_imagens/secao08-logo-pizzaria-toscana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px; 
+}
+
+nav ul#esquerda {
+  float: left;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+
+  margin-top: 70px;
+  height: 40px;
+}
+
+nav ul#direita {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 100px; 
+
+  font-size: 80%;
+}
+
+nav ul li a#criar-conta {
+  border: 1px solid #FFF;
+  padding: 9px 29px; /*diminui para compensar o tamanho da borda*/
+}
+
+nav ul li a:hover {
+  background-color: #F2B705;
+  transition-duration: 0.8s;
+}
+
+nav ion-icon#icone-user {
+  width: 45px;
+  height: 45px;
+
+  color: white;
+  margin-top: -13px;
+  margin-left: 20px
+}
+
+nav ion-icon#icone-user:hover {
+  color: #F2B705;
+  cursor: pointer;
+}
+
