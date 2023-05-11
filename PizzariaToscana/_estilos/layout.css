@@ -17,9 +17,10 @@ CINZA BEM CLARO: #F7F7F7
 }
 
 header {
+  position: relative;
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../_imagens/secao08-background-capa.jpg);
   background-size: cover;
-  background-position: top center;
+  background-position: left center;
   width: 100%;
   height: 100vh;
   border-top: 5px solid #078C31;
@@ -93,3 +94,11 @@ nav ion-icon#icone-user:hover {
   cursor: pointer;
 }
 
+header div#chamada {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
