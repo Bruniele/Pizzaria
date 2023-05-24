@@ -111,3 +111,11 @@ div.pontos-chaves h4:after {
   margin: 20px auto 10px;
   content: " ";
 }
+
+/* ---------------------------- */
+/*        SEÇÃO - PIZZA         */
+/* ---------------------------- */
+
+section#pizza p.destaque {
+  color: #FFF;
+}

@@ -204,3 +204,14 @@ section#domingo-perfeito div.pontos-chaves ion-icon {
   height: 75px;
   color: #E03733;
 }
+
+/* ---------------------------- */
+/*        SEÇÃO - PIZZA         */
+/* ---------------------------- */
+
+section#pizza {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../_imagens/secao10-background-secao-pizza.jpg);
+  background-size: cover;
+  padding: 40px 0 80px;
+  height: 1000px;
+}
