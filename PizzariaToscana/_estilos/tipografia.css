@@ -129,3 +129,11 @@ section#pizza ul li {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* ----------------------------- */
+/*      SEÇÃO - DEPOIMENTOS      */
+/* ----------------------------- */
+
+section#testemunha p.destaque {
+  width: 40%;
+}
