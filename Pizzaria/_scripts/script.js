@@ -44,3 +44,9 @@ $('div#testemunha-esquerda').click( function() {
   $('div#testemunha-direita ion-icon').css('cursor','pointer');
 
 })
+
+// códigos de clique para assinar
+
+$('div.planos-bottom').click(function() {
+  alert("clicou")
+})
