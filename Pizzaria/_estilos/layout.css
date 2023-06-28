@@ -1,4 +1,16 @@
-/* 
+/*
+div#teste {
+  background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 60px;
+  z-index: 10;
+  color: #000;
+}
+
+
 CORES
 VERDE ESCURO: #065902
 VERDE MAIS CLARO : #078C31
@@ -35,9 +47,8 @@ nav {
 
 nav div#logo {
   float: left;
-  background-image: url(../_imagens/secao08-logo-pizzaria-toscana.png);
-  background-size: 60%;
-  background-position: 55px 15px;
+  background-image: url(../_imagens/secao08-logo-pizzaria.png);
+  background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
   height: 200px; 
@@ -261,7 +272,12 @@ div#testemunha-mestre {
   justify-content: space-between;
 }
 
-div#testemunha-esquerda, 
+div#testemunha-esquerda {
+  width: 15%;
+  height: 300px;
+  cursor: not-allowed;
+}
+
 div#testemunha-direita {
   width: 15%;
   height: 300px;
@@ -295,7 +311,7 @@ div#testemunhos {
 
 section#testemunha div#testemunha-centro div#testemunhos ul {
   display: inline-table;
-  width: 300px;
+  width: 301px;
   background: #fff;
   padding: 30px;
   margin: 50px 15px;
