@@ -50,3 +50,25 @@ $('div#testemunha-esquerda').click( function() {
 $('div.planos-bottom').click(function() {
   alert("clicou")
 })
+
+// códigos para links das redes sociais
+
+$('ion-icon#facebook').click(function() {
+  window.open("http://www.facebook.com","_blank");
+})
+
+$('ion-icon#instagram').click(function() {
+  window.open("http://www.instagram.com","_blank");
+})
+
+$('ion-icon#twitter').click(function() {
+  window.open("http://www.twitter.com","_blank");
+})
+
+$('ion-icon#youtube').click(function() {
+  window.open("http://www.youtube.com","_blank");
+})
+
+$('ion-icon#linkedin').click(function() {
+  window.open("http://www.linkedin.com","_blank");
+})

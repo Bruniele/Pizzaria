@@ -444,6 +444,10 @@ footer {
   height: 500px;
   background-image: url(../_imagens/secao15-mesa-xadrez.png);
   background-repeat: repeat;
+  border-bottom: 10px solid #f03733;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 footer div#mapa {
@@ -451,4 +455,38 @@ footer div#mapa {
   height: 390px;
   background-color: rgba(255,255,255,1);
   box-shadow: 0 3px 10px #404040;
+}
+
+footer div#info {
+  width: 30%;
+  height: 390px;
+  background-color: #f03733;
+  box-shadow: 0 3px 10px #404040;
+}
+
+footer div#redes-sociais {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+footer div#redes-sociais ion-icon {
+  color: #fff;
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+}
+
+footer div#redes-sociais ion-icon:hover {
+  color: #f2b705;
+}
+
+footer div#pizza-rodape-decoracao {
+  width: 300px;
+  height: 390px;
+  margin-top: -100px;
+  background-image: url(../_imagens/secao15-pizza-rodape.png);
+  background-repeat: no-repeat;
 }
