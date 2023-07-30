@@ -250,6 +250,7 @@ div.pizza-opcoes {
   width: 33.3%;
   text-align: center;
   margin: 5px 0;
+  opacity: 0;
 }
 
 /* ----------------------------- */

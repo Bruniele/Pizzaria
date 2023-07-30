@@ -96,3 +96,17 @@ $('section#domingo-perfeito').waypoint( function(direcao) {
 },{
     offset: '450px;'
 })
+
+$('section#pizza').waypoint( function(direcao) {
+  if (direcao == 'down') {
+    $('section#pizza p').addClass('animate__animated animate__fadeInUp');
+    $('section#pizza div.pizza-opcoes').addClass('animate__animated animate__fadeInUp animate__slow');
+  }
+
+  if (direcao == 'up') {
+    $('section#pizza p').removeClass('animate__animated animate__fadeInUp');
+    $('section#pizza div.pizza-opcoes').removeClass('animate__animated animate__fadeInUp animate__slow');
+  }
+},{
+  offset: '450px;'
+})
