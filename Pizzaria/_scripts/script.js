@@ -130,3 +130,17 @@ $('section#testemunha').waypoint( function(direcao) {
 },{
     offset: '400px;'
 })
+
+$('div#transicao-testemunha-plano').waypoint( function(direcao) {
+  if(direcao == 'down') {
+    $('div#decoracao1').addClass('animate__animated animate__fadeInLeft animate__slow');
+    $('div#decoracao2').addClass('animate__animated animate__fadeIn animate__slow');
+    $('div#decoracao3').addClass('animate__animated animate__fadeInRight animate__slow');
+  } else {
+    $('div#decoracao1').removeClass('animate__animated animate__fadeInLeft animate__slow');
+    $('div#decoracao2').removeClass('animate__animated animate__fadeIn animate__slow');
+    $('div#decoracao3').removeClass('animate__animated animate__fadeInRight animate__slow');
+  }
+},{
+    offset: '800px;'
+})
