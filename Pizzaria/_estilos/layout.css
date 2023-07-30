@@ -141,6 +141,7 @@ div.folha1 {
   height: 150px;
   background-image: url(../_imagens/secao09-folha1.png);
   background-repeat: no-repeat;
+  opacity: 0;
 }
 
 div.camarao {
@@ -149,6 +150,7 @@ div.camarao {
   left: 0;
   width: 150px;
   height: 150px;
+  opacity: 0;
   background: url(../_imagens/secao09-camarao.jpg) no-repeat;
 }
 
@@ -158,6 +160,7 @@ div.folha2 {
   left: 50px;
   width: 150px;
   height: 150px;
+  opacity: 0;
   background: url(../_imagens/secao09-folha2.png) no-repeat;
 }
 
@@ -167,6 +170,7 @@ div.folha3 {
   left: 20px;
   width: 160px;
   height: 150px;
+  opacity: 0;
   background: url(../_imagens/secao09-folha3.png) no-repeat;
 }
 
@@ -176,6 +180,7 @@ div.tomate {
   left: 100px;
   width: 160px;
   height: 150px;
+  opacity: 0;
   background: url(../_imagens/secao09-tomate.png) no-repeat;
 }
 
@@ -185,6 +190,7 @@ div.queijo {
   left: 10px;
   width: 160px;
   height: 150px;
+  opacity: 0;
   background: url(../_imagens/secao09-queijo.jpg) no-repeat;
 }
 
