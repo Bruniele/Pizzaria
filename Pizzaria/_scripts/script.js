@@ -98,7 +98,7 @@ $('section#domingo-perfeito').waypoint( function(direcao) {
     $('div.queijo').removeClass('animate__animated animate__fadeInUp animate__slower'); 
   }
 },{
-    offset: '450px;'
+  offset: '450px;'
 })
 
 $('section#pizza').waypoint( function(direcao) {
@@ -128,7 +128,7 @@ $('section#testemunha').waypoint( function(direcao) {
     $('div#testemunhos ul:eq(2)').removeClass('animate__animated animate__fadeInUp animate__slower');
   }
 },{
-    offset: '400px;'
+  offset: '400px;'
 })
 
 $('div#transicao-testemunha-plano').waypoint( function(direcao) {
@@ -142,7 +142,7 @@ $('div#transicao-testemunha-plano').waypoint( function(direcao) {
     $('div#decoracao3').removeClass('animate__animated animate__fadeInRight animate__slow');
   }
 },{
-    offset: '800px;'
+  offset: '800px;'
 })
 
 $('section#plano-principal').waypoint(function(direcao) {
@@ -171,4 +171,44 @@ $('footer').waypoint(function(direcao) {
   }
 },{
   offset: '650px;'
+})
+
+$('header h1').waypoint(function(direcao) {
+  if (direcao == 'down') {
+    $('nav').addClass('navEstatico');
+    $('nav div').addClass('logoEstatico');
+    $('nav ul').addClass('menuEstatico');
+    $('nav ul li a').addClass('itemEstatico');
+    $('nav ion-icon').addClass('iconeEstatico');
+  } else {
+    $('nav').removeClass('navEstatico');
+    $('nav div').removeClass('logoEstatico');
+    $('nav ul').removeClass('menuEstatico');
+    $('nav ul li a').removeClass('itemEstatico');
+    $('nav ion-icon').removeClass('iconeEstatico');
+  }
+},{
+  offset: '200px;'
+})
+
+// ações de navegação
+
+$('nav div').click(function() {
+  $('html,body').animate({scrollTop:$('header').offset().top},1000);
+})
+
+$('nav ul li:eq(0)').click(function() {
+  $('html,body').animate({scrollTop:$('section#domingo-perfeito').offset().top},1000);
+})
+
+$('nav ul li:eq(1)').click(function() {
+  $('html,body').animate({scrollTop:$('section#pizza').offset().top},1000);
+})
+
+$('nav ul li:eq(2)').click(function() {
+  $('html,body').animate({scrollTop:$('section#testemunha').offset().top},1000);
+})
+
+$('nav ul li:eq(3)').click(function() {
+  $('html,body').animate({scrollTop:$('section#plano-principal').offset().top},1000);
 })
