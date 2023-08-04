@@ -144,3 +144,17 @@ $('div#transicao-testemunha-plano').waypoint( function(direcao) {
 },{
     offset: '800px;'
 })
+
+$('section#plano-principal').waypoint(function(direcao) {
+  if (direcao == 'down') {
+    $('div.planos:eq(0)').addClass('animate__animated animate__fadeInLeft animate__slower');
+    $('div.planos:eq(1)').addClass('animate__animated animate__fadeInUp animate__slow');
+    $('div.planos:eq(2)').addClass('animate__animated animate__fadeInRight animate__slower');
+  } else {
+    $('div.planos:eq(0)').removeClass('animate__animated animate__fadeInLeft animate__slower');
+    $('div.planos:eq(1)').removeClass('animate__animated animate__fadeInUp animate__slow');
+    $('div.planos:eq(2)').removeClass('animate__animated animate__fadeInRight animate__slower');
+  }
+},{
+  offset: '450px;'
+})

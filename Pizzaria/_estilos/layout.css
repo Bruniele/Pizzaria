@@ -413,6 +413,7 @@ div.planos {
   width: 250px;
   height: 450px;
   margin: 80px 30px;
+  opacity: 0;
 }
 
 div.planos-top {
