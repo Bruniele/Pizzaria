@@ -158,3 +158,17 @@ $('section#plano-principal').waypoint(function(direcao) {
 },{
   offset: '450px;'
 })
+
+$('footer').waypoint(function(direcao) {
+  if (direcao == 'down') {
+    $('div#mapa').addClass('animate__animated animate__fadeIn');
+    $('div#info').addClass('animate__animated animate__fadeIn');
+    $('div#pizza-rodape-decoracao').addClass('animate__animated animate__fadeIn');
+  } else {
+    $('div#mapa').removeClass('animate__animated animate__fadeIn');
+    $('div#info').removeClass('animate__animated animate__fadeIn');
+    $('div#pizza-rodape-decoracao').removeClass('animate__animated animate__fadeIn');
+  }
+},{
+  offset: '650px;'
+})

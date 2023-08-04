@@ -465,6 +465,7 @@ footer div#mapa {
   width: 35%;
   height: 390px;
   background-color: rgba(255,255,255,1);
+  opacity: 0;
   box-shadow: 0 3px 10px #404040;
 }
 
@@ -473,6 +474,7 @@ footer div#info {
   height: 390px;
   background-color: #f03733;
   box-shadow: 0 3px 10px #404040;
+  opacity: 0;
 }
 
 footer div#redes-sociais {
@@ -498,6 +500,7 @@ footer div#pizza-rodape-decoracao {
   width: 300px;
   height: 390px;
   margin-top: -100px;
+  opacity: 0;
   background-image: url(../_imagens/secao15-pizza-rodape.png);
   background-repeat: no-repeat;
 }
